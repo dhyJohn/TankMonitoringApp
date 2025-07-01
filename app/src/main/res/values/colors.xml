@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- ✅ 앱의 주요 색상으로 사용할 파란색을 추가합니다. -->
+    <color name="blue">#1A8DDD</color>
+    <color name="gray">#808080</color>
+</resources>

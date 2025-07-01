@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TankMonitoringApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ✅ primaryColor를 원하는 파란색으로 변경합니다. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.TankMonitoringApp" parent="Base.Theme.TankMonitoringApp" />
+
+    <style name="Theme.TankMonitoringApp.Starting" parent="Theme.Material3.DayNight">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.TankMonitoringApp</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+
+
+    <style name="TabTextStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16dp</item> <!-- 원하는 크기로 설정 -->
+        <item name="android:textColor">@color/gray</item> <!-- 일반 텍스트 색상 -->
+    </style>
+
+    <style name="TabTextStyleSelected" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16dp</item> <!-- 선택된 탭의 텍스트 크기 -->
+        <item name="android:textColor">@color/blue</item> <!-- 선택된 탭의 색상 -->
+    </style>
+
+</resources>

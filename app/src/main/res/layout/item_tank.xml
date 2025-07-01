@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEEEEE"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvTankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="탱크 이름"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFuelLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연료: 100.0L" />
+
+    <TextView
+        android:id="@+id/tvWaterLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수위: 2.5L" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="온도: 25.0도" />
+
+    <TextView android:id="@+id/capacityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="용량: 1000L"/>
+
+    <TextView android:id="@+id/timestampText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시간"/>
+
+</LinearLayout>
